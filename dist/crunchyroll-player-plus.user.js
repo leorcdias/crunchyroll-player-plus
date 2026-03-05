@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Crunchyroll — Player Plus
 // @namespace    https://github.com/leorcdias/
-// @version      1.5.0
+// @version      1.5.1
 // @description  Adiciona recursos avançados ao player da Crunchyroll para maratonar: pular abertura/recapitulação automático, modo teatro sem distrações (widescreen), começar em X segundos (por anime), próximo episódio automático (por anime) e modo Picture-in-Picture (PiP) habilitado.
 // @author       Leonardo Dias
 // @homepageURL  https://github.com/leorcdias/crunchyroll-player-plus
@@ -900,3 +900,4 @@
     return !e.ctrlKey && !e.altKey && !e.metaKey && !e.shiftKey && e.key.toLowerCase() === key;
   }
 })();
+
